@@ -1,0 +1,51 @@
+{
+  "name": "blog_api_egg",
+  "version": "1.0.0",
+  "description": "my blog api build with eggjs",
+  "private": true,
+  "dependencies": {
+    "egg": "^0.12.0"
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "egg-bin": "^1.10.0",
+    "egg-ci": "^1.1.0",
+    "egg-mock": "^2.0.0",
+    "eslint": "^3.13.1",
+    "eslint-config-egg": "^3.2.0",
+    "supertest": "^2.0.1",
+    "webstorm-disable-index": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "egg-bin dev",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "mywei1989@gmail.com",
+  "license": "MIT",
+  "boilerplate": {
+    "name": "egg-boilerplate-empty",
+    "version": "2.0.0",
+    "description": "only init basic stuff, such as eslint / test / ci ... ",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:eggjs/egg-boilerplate-empty.git"
+    },
+    "homepage": "https://github.com/eggjs/egg-boilerplate-empty"
+  }
+}
