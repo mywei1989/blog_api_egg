@@ -16,7 +16,7 @@
     },
     "i18n": {
       "defaultLocale": "en_US",
-      "dir": "/Users/null/gitsource/github/blog_api_egg/config/locales",
+      "dir": "F:\\GitSource\\GitHub\\blog_api_egg\\config\\locales",
       "queryField": "locale",
       "cookieField": "locale",
       "cookieMaxAge": "1y"
@@ -24,8 +24,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -99,7 +99,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/null/gitsource/github/blog_api_egg/app/public",
+      "dir": "F:\\GitSource\\GitHub\\blog_api_egg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false
@@ -168,9 +168,9 @@
         "homepage": "https://github.com/eggjs/egg-boilerplate-empty"
       }
     },
-    "baseDir": "/Users/null/gitsource/github/blog_api_egg",
-    "HOME": "/Users/null",
-    "rundir": "/Users/null/gitsource/github/blog_api_egg/run",
+    "baseDir": "F:\\GitSource\\GitHub\\blog_api_egg",
+    "HOME": "C:\\Users\\null",
+    "rundir": "F:\\GitSource\\GitHub\\blog_api_egg\\run",
     "notfound": {
       "pageUrl": "",
       "enableRedirect": false
@@ -14386,7 +14386,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/null/gitsource/github/blog_api_egg/logs/blog_api_egg",
+      "dir": "F:\\GitSource\\GitHub\\blog_api_egg\\logs\\blog_api_egg",
       "encoding": "utf8",
       "env": "local",
       "level": "DEBUG",
@@ -14438,8 +14438,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-onerror",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-onerror",
       "version": "1.3.0"
     },
     "userservice": {
@@ -14449,8 +14449,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-userservice",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-userservice",
       "version": "1.0.0"
     },
     "userrole": {
@@ -14460,8 +14460,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-userrole",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-userrole",
       "version": "1.1.1"
     },
     "session": {
@@ -14471,8 +14471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-session",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-session",
       "version": "1.1.0"
     },
     "i18n": {
@@ -14482,8 +14482,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-i18n",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-i18n",
       "version": "1.1.0"
     },
     "validate": {
@@ -14493,8 +14493,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-validate",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-validate",
       "version": "1.0.0"
     },
     "watcher": {
@@ -14504,8 +14504,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-watcher",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-watcher",
       "version": "2.0.0"
     },
     "multipart": {
@@ -14515,8 +14515,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-multipart",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-multipart",
       "version": "1.1.0"
     },
     "security": {
@@ -14528,8 +14528,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-security",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-security",
       "version": "1.4.0"
     },
     "development": {
@@ -14543,8 +14543,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-development",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-development",
       "version": "1.2.0"
     },
     "schedule": {
@@ -14554,8 +14554,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-schedule",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-schedule",
       "version": "2.3.0"
     },
     "logrotator": {
@@ -14567,8 +14567,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-logrotator",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-logrotator",
       "version": "2.2.2"
     },
     "static": {
@@ -14578,8 +14578,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-static",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-static",
       "version": "1.1.0"
     },
     "jsonp": {
@@ -14591,8 +14591,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/null/gitsource/github/blog_api_egg/node_modules/egg-jsonp",
+      "from": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\GitSource\\GitHub\\blog_api_egg\\node_modules\\egg-jsonp",
       "version": "1.0.0"
     }
   }

@@ -1,23 +1,35 @@
 'use strict';
 
-const mongoose = require('mongoose');
-const PostModel = require('../model/post');
+const PostSchame = require('../model/post');
 
 module.exports = app => {
   class PostService extends app.Service {
     constructor(ctx){
       super(ctx);
-      this.mongoUrl = this.ctx.app.config.mongoUrl;
-      this.mongodb = mongoose.connect(this.mongoUrl);
     }
 
     * getCount(){
-      const aa = this.mongodb.model('post',PostModel);
-      //const aa = PostModel.count('_id')
-
-      return aa.count('_id');
+      let postModel = this.ctx.app.mongodb.model('post',PostSchame);
+      let count = postModel.count('_id');
+      return count;
     }
     
+    * getList (pageSize){
+      let postModel = this.ctx.app.mongodb.model('post',PostSchame);
+      let list = postModel.find().sort({'time.date':-1}).limit(pageSize)
+      return list;
+    }
+
+    * getPage(pageIndex,pageSize){
+      let postModel = this.ctx.app.mongodb.model('post',PostSchame);
+      let skipCount = pageIndex == 1 ? 0 : (pageIndex - 1) * pageSize;
+      let list = postModel.find().skip(skipCount).sort({'time.date':-1}).limit(pageSize)
+      return list;
+    }
+
+    * getTag(pageIndex,pageSize){
+
+    }
   };
 
   return PostService;

@@ -5,7 +5,9 @@ const Post = new mongoose.Schema({
   _id:String,
   name:String,
   title:String,
-  //time:Object,
+  time:{
+    date:Date
+  },
   //tags:Array,
   post:String
 });
