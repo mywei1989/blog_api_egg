@@ -3,7 +3,7 @@
 const PostSchame = require('../model/post');
 
 module.exports = app => {
-  class PostService extends app.Service {
+  class ListService extends app.Service {
     constructor(ctx){
       super(ctx);
     }
@@ -16,7 +16,7 @@ module.exports = app => {
     
     * getList (pageSize){
       let postModel = this.ctx.app.mongodb.model('post',PostSchame);
-      let list = postModel.find().sort({'time.date':-1}).limit(pageSize)
+      let list = postModel.find().sort({'time.date':-1}).limit(pageSize)    
       return list;
     }
 
@@ -27,10 +27,7 @@ module.exports = app => {
       return list;
     }
 
-    * getTag(pageIndex,pageSize){
-
-    }
   };
 
-  return PostService;
+  return ListService;
 }
