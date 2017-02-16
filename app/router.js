@@ -1,4 +1,4 @@
 
 module.exports = app => {
-  app.get('/','list.index');
+  app.get('/',app.controller.list.list);
 }

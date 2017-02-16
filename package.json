@@ -4,7 +4,8 @@
   "description": "my blog api build with eggjs",
   "private": true,
   "dependencies": {
-    "egg": "^0.12.0"
+    "egg": "^0.12.0",
+    "mongoose": "^4.8.3"
   },
   "devDependencies": {
     "autod": "^2.7.1",
